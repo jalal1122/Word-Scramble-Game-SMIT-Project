@@ -25,7 +25,9 @@ A fun and interactive word scramble game built using **HTML, CSS, and JavaScript
 
 - **HTML** – Provides the structure of the game.  
 - **CSS** – Enhances styling and ensures a responsive design.  
-- **JavaScript** – Handles the game logic and interactivity.  
+- **JavaScript** – Handles the game logic and interactivity.
+
+## ** Live Demo **  https://mjscramble.vercel.app/
 
 ## **📥 Installation**  
 
