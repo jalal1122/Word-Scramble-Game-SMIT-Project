@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrap-in">
+      <div class="container">
+        <h1>
+          <i class="fa-solid fa-wand-sparkles" style="color: #ffc905"></i>
+          <span>Word Scramble Game</span>
+          <i class="fa-solid fa-wand-sparkles" style="color: #ffc905"></i>
+        </h1>
+        <div class="difficultyContainer">
+          <button class="difficulty" id="easy">Easy</button>
+          <button class="difficulty" id="medium">Medium</button>
+          <button class="difficulty" id="hard">Hard</button>
+        </div>
+
+        <div class="gameContainer">
+          <div class="wordContainer">
+            <h2 id="scrambledWord">Word</h2>
+          </div>
+          <div class="inputContainer">
+            <input type="text" id="userInput" placeholder="Enter the word" />
+            <div class="buttonGroup">
+              <button id="checkAns">Check Answer</button>
+              <button id="Next">Next</button>
+            </div>
+            <div id="answerOutput"></div>
+          </div>
+          <div class="hintContainer">
+            <button id="hintButton">🤔 Hint</button>
+            <h2 id="hint"></h2>
+          </div>
+          <div class="resultContainer">
+            <h2 id="result"></h2>
+          </div>
+          <div class="scoreContainer">
+            <h2>Score: <span id="score">0</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
